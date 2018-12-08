@@ -12,5 +12,5 @@
     $mail->Port = 587;                                 // TCP port to connect to
     //Recipients
     $mail->setFrom('YOUR_HOST_HERE', 'YOUR_NAME');				//SET "FROM" EMAIL AND NAME. 
-    
-### Just Replace `YOUR_HOST_HERE`, `YOUR_HOST_HERE`, `YOUR_HOST_HERE`, `YOUR_HOST_HERE` and `YOUR_NAME` from these lines.
+```    
+# Just Replace `YOUR_HOST_HERE`, `YOUR_HOST_HERE`, `YOUR_HOST_HERE`, `YOUR_HOST_HERE` and `YOUR_NAME` from these lines.
