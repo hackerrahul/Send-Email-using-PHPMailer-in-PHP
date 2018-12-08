@@ -20,7 +20,7 @@ Just Use **`send_mail()`** function which request 3 arguments `send_mail($to,$su
 
 ``` php
 <?php
-	$to = 'recepientemail@gmail.com';
+	$to = 'recipientemail@gmail.com';
 	$subject = 'Subject for PHPMailer';
 	$body = 'here is the demo body for email';
 	
@@ -31,3 +31,5 @@ Just Use **`send_mail()`** function which request 3 arguments `send_mail($to,$su
 		echo 'Error Sending Mail.';
 	}
 ?>
+```
+This will Publish email Instantly and recipient will receive email instantly!
