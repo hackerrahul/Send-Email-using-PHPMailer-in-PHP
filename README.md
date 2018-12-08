@@ -14,3 +14,20 @@ Open **`sendemail.php`** and edit these lines.
     $mail->setFrom('YOUR_EMAIL_ADDRESS', 'YOUR_NAME');	 //SET "FROM" EMAIL AND NAME. 
 ```    
 Just Replace **`YOUR_HOST_HERE`**, **`YOUR_SMTP_USERNAME`**, **`YOUR_SMTP_PASSWORD`**, **`YOUR_EMAIL_ADDRESS`** and **`YOUR_NAME`** from these above lines.
+
+## How to Send Email?
+Just Use **`send_mail()`** function which request 3 arguments `send_mail($to,$subject,$body)`, so the codes will be like this.
+
+``` php
+<?php
+	$to = 'recepientemail@gmail.com';
+	$subject = 'Subject for PHPMailer';
+	$body = 'here is the demo body for email';
+	
+	$send = send_mail($to,$subject,$body);
+	if($send == 1){
+		echo 'Mail Sent!';
+	}else{
+		echo 'Error Sending Mail.';
+	}
+?>
