@@ -4,7 +4,7 @@ Open **`sendemail.php`** and edit these lines.
  //Server settings
     $mail->SMTPDebug = 0;                                     // Enable verbose debug output
     $mail->isSMTP();                                         // Set mailer to use SMTP
-    $mail->Host = 'YOUR_HOST_HERE';                       	// Specify main and backup SMTP servers
+    $mail->Host = 'YOUR_HOST_HERE';                      // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                                // Enable SMTP authentication
     $mail->Username = 'YOUR_HOST_HERE';                   // SMTP username
     $mail->Password = 'YOUR_HOST_HERE';                  // SMTP password
