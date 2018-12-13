@@ -13,7 +13,7 @@ Open **`sendemail.php`** and edit these lines.
     //Recipients
     $mail->setFrom('YOUR_EMAIL_ADDRESS', 'YOUR_NAME');	 //SET "FROM" EMAIL AND NAME. 
 ```    
-Just Replace **`YOUR_HOST_HERE`**, **`YOUR_SMTP_USERNAME`**, **`YOUR_SMTP_PASSWORD`**, **`YOUR_EMAIL_ADDRESS`** and **`YOUR_NAME`** from these above lines.
+Just Replace **`YOUR_HOST_HERE`**, **`YOUR_SMTP_USERNAME`**, **`YOUR_SMTP_PASSWORD`**, **`YOUR_EMAIL_ADDRESS`** and **`YOUR_NAME`** from these above lines with your SMTP Details.
 
 ## How to Send Email?
 Just Use **`send_mail()`** function which request 3 arguments `send_mail($to,$subject,$body)`,you need to include **`sendemail.php`** file on top of your page to send email, so the codes will be like this.
